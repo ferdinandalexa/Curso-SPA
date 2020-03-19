@@ -1,7 +1,7 @@
 const Header = () => {
     const view = `
         <div class="header-main">
-            <div class="header__logo>
+            <div class="header__logo">
                 <h1>
                     <a href="/">
                         100tifi.co

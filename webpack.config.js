@@ -29,13 +29,11 @@ module.exports = {
     },
     plugins: [
         new HTMLWebpackPlugin(
-            [
-                {
-                    inject: true,
-                    template: './public/index.html',
-                    filename: 'index.html',
-                }
-            ]
+            {
+                inject: true,
+                template: './public/index.html',
+                filename: 'index.html',
+            }
         )
     ]
 };
